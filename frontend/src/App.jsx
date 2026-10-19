@@ -11,7 +11,7 @@ import {
 import { CSS } from "@dnd-kit/utilities";
 import "./App.css";
 
-const API_BASE = "http://localhost:8000/api";
+const API_BASE = "/api";
 
 const COLUMNS = [
   { id: "TODO", title: "To do", color: "todo" },
