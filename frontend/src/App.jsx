@@ -11,7 +11,9 @@ import {
 import { CSS } from "@dnd-kit/utilities";
 import "./App.css";
 
-const API_BASE = "/api";
+const API_BASE =
+  import.meta.env.VITE_API_BASE_URL ||
+  "https://saas-project-platform-zh1t.onrender.com/api";
 
 const COLUMNS = [
   { id: "TODO", title: "To do", color: "todo" },
